@@ -1,2 +1,0 @@
-[console_scripts]
-court-message-evidence-map = court_message_evidence_map.cli:main
