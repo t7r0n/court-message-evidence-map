@@ -1,0 +1,18 @@
+{
+  "company": "Dispute Buddy",
+  "repo": "court-message-evidence-map",
+  "metrics": [
+    "people_coverage",
+    "preparing_risk",
+    "text-message_precision",
+    "court_latency"
+  ],
+  "failure_modes": [
+    "people_drift",
+    "preparing_gap",
+    "text-message_misroute",
+    "court_blindspot"
+  ],
+  "minimum_cases": 144,
+  "requires_evidence_markers": true
+}

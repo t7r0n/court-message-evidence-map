@@ -1,0 +1,49 @@
+{
+  "company": "Dispute Buddy",
+  "company_slug": "dispute-buddy",
+  "repo": "court-message-evidence-map",
+  "package": "court_message_evidence_map",
+  "cli": "court-message-evidence-map",
+  "title": "Court Message Evidence Map",
+  "problem": "people preparing text-message evidence for court need trauma-aware evidence selection, chain-of-custody clarity, and lawyer-reviewable summaries without hallucinated claims.",
+  "direction": "A local evidence map that ingests synthetic SMS/WhatsApp exports, clusters incidents, cites every claim to message IDs, detects coercive-pattern evidence, and emits a lawyer-ready review packet.",
+  "why": "Dispute Buddy is already about replacing screenshots with court-ready message evidence. The project pushes into citation-locked analysis and review workflow, which is exactly where trust matters.",
+  "terms": [
+    "people",
+    "preparing",
+    "text-message",
+    "court",
+    "trauma-aware",
+    "selection",
+    "chain-of-custody",
+    "clarity",
+    "lawyer-reviewable",
+    "summaries",
+    "hallucinated",
+    "claims",
+    "ingests",
+    "synthetic",
+    "whatsapp",
+    "exports",
+    "clusters",
+    "incidents"
+  ],
+  "metrics": [
+    "people_coverage",
+    "preparing_risk",
+    "text-message_precision",
+    "court_latency"
+  ],
+  "failure_modes": [
+    "people_drift",
+    "preparing_gap",
+    "text-message_misroute",
+    "court_blindspot"
+  ],
+  "sources": [
+    "https://www.disputebuddy.co/",
+    "https://www.disputebuddy.co/our-story",
+    "https://www.trustpilot.com/review/disputebuddy.co"
+  ],
+  "github_url": "https://github.com/t7r0n/court-message-evidence-map"
+}

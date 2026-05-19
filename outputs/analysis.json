@@ -1,0 +1,82 @@
+{
+  "company": "Dispute Buddy",
+  "repo": "court-message-evidence-map",
+  "cases": 144,
+  "status_counts": {
+    "pass": 111,
+    "review": 19,
+    "block": 14
+  },
+  "clusters": [
+    {
+      "scenario": "court policy boundary",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 1.708,
+      "mean_score": 0.2735,
+      "top_evidence_id": "ev_0033",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "people drift",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 3,
+      "mean_severity": 2.5,
+      "mean_score": 0.3928,
+      "top_evidence_id": "ev_0022",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "people evidence recall",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 3,
+      "mean_severity": 1.875,
+      "mean_score": 0.2912,
+      "top_evidence_id": "ev_0000",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "preparing gap",
+      "cases": 24,
+      "blocks": 3,
+      "reviews": 2,
+      "mean_severity": 3.333,
+      "mean_score": 0.5239,
+      "top_evidence_id": "ev_0011",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "preparing reviewer handoff",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 2.583,
+      "mean_score": 0.4214,
+      "top_evidence_id": "ev_0121",
+      "recommended_action": "block release until replay is understood"
+    },
+    {
+      "scenario": "text-message failure replay",
+      "cases": 24,
+      "blocks": 2,
+      "reviews": 4,
+      "mean_severity": 3.333,
+      "mean_score": 0.5233,
+      "top_evidence_id": "ev_0044",
+      "recommended_action": "block release until replay is understood"
+    }
+  ],
+  "highest_risk": {
+    "scenario": "preparing gap",
+    "cases": 24,
+    "blocks": 3,
+    "reviews": 2,
+    "mean_severity": 3.333,
+    "mean_score": 0.5239,
+    "top_evidence_id": "ev_0011",
+    "recommended_action": "block release until replay is understood"
+  }
+}

@@ -1,0 +1,7 @@
+scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
+court policy boundary,24,2,3,1.708,0.2735,ev_0033,block release until replay is understood
+people drift,24,2,3,2.5,0.3928,ev_0022,block release until replay is understood
+people evidence recall,24,3,3,1.875,0.2912,ev_0000,block release until replay is understood
+preparing gap,24,3,2,3.333,0.5239,ev_0011,block release until replay is understood
+preparing reviewer handoff,24,2,4,2.583,0.4214,ev_0121,block release until replay is understood
+text-message failure replay,24,2,4,3.333,0.5233,ev_0044,block release until replay is understood
