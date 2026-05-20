@@ -1,11 +1,11 @@
 {
   "layers": [
     {
-      "name": "synthetic_fixture_replay",
+      "name": "fixture_replay",
       "purpose": "exercise people and preparing cases"
     },
     {
-      "name": "domain_strategy",
+      "name": "strategy_model",
       "purpose": "score people_coverage and preparing_risk"
     },
     {
