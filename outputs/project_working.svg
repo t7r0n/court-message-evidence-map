@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700" role="img" aria-label="Dispute Buddy visual evidence dashboard">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="700" viewBox="0 0 1120 700" role="img" aria-label="Court Message Evidence Map visual evidence dashboard">
   <defs>
     <style>
       .bg { fill:#f7faf9; }
@@ -18,14 +18,14 @@
   </defs>
   <rect class="bg" width="1120" height="700"/>
   <rect class="panel" x="28" y="28" width="1064" height="644" rx="8"/>
-  <text class="title" x="64" y="76">Dispute Buddy Evidence Triage Board</text>
+  <text class="title" x="64" y="76">Court Message Evidence Map</text>
   <text class="sub" x="64" y="108"><tspan x="64" dy="0">A local evidence map that ingests synthetic SMS/WhatsApp exports, clusters incidents,</tspan><tspan x="64" dy="22">cites every claim to message IDs, detects coercive-pattern evidence, and emits a</tspan></text>
   <rect class="card" x="64" y="166" width="232" height="84" rx="8"/>
   <text class="small" x="84" y="194">pressure index</text>
   <text class="metric" x="84" y="230">0.3167</text>
   <rect class="card" x="320" y="166" width="232" height="84" rx="8"/>
   <text class="small" x="340" y="194">evidence density</text>
-  <text class="metric" x="340" y="230">18.75</text>
+  <text class="metric" x="340" y="230">20.75</text>
   <rect class="card" x="576" y="166" width="480" height="84" rx="8"/>
   <text class="small" x="596" y="194">highest leverage path</text>
   <text class="label" x="596" y="224"><tspan x="596" dy="0">people evidence replay</tspan></text>

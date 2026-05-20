@@ -1,6 +1,6 @@
-# Operator Brief: Dispute Buddy
+# Operator Brief: Court Message Evidence Map
 
-Dispute Buddy gets a local, deterministic pressure test around people, preparing, and text-message. The useful part is the repeatable evidence path from fixture to failure to operator action.
+This local harness runs a deterministic pressure test around people, preparing, and text-message. The useful part is the repeatable evidence path from fixture to failure to operator action.
 
 ## Highest-leverage checks
 

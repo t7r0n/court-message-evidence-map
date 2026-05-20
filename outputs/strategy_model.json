@@ -1,5 +1,5 @@
 {
-  "company": "Dispute Buddy",
+  "company": "Court Message Evidence Map",
   "repo": "court-message-evidence-map",
   "terms": [
     "people",
@@ -23,7 +23,7 @@
     "text-message_misroute",
     "court_blindspot"
   ],
-  "evidence_density": 18.75,
+  "evidence_density": 20.75,
   "pressure_index": 0.3167,
   "blocked_share": 0.0972,
   "review_share": 0.1319,
@@ -65,5 +65,5 @@
       "severity": 2.528
     }
   ],
-  "readout": "Dispute Buddy gets a local, deterministic pressure test around people, preparing, and text-message. The useful part is the repeatable evidence path from fixture to failure to operator action."
+  "readout": "This local harness runs a deterministic pressure test around people, preparing, and text-message. The useful part is the repeatable evidence path from fixture to failure to operator action."
 }
