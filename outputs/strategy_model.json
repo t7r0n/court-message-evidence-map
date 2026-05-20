@@ -1,0 +1,69 @@
+{
+  "company": "Dispute Buddy",
+  "repo": "court-message-evidence-map",
+  "terms": [
+    "people",
+    "preparing",
+    "text-message",
+    "court",
+    "trauma-aware",
+    "selection",
+    "chain-of-custody",
+    "clarity"
+  ],
+  "metrics": [
+    "people_coverage",
+    "preparing_risk",
+    "text-message_precision",
+    "court_latency"
+  ],
+  "failure_modes": [
+    "people_drift",
+    "preparing_gap",
+    "text-message_misroute",
+    "court_blindspot"
+  ],
+  "evidence_density": 18.75,
+  "pressure_index": 0.3167,
+  "blocked_share": 0.0972,
+  "review_share": 0.1319,
+  "top_leverage_points": [
+    {
+      "rank": 1,
+      "scenario": "people evidence replay",
+      "metric": "people_coverage",
+      "failure_mode": "people_drift",
+      "evidence": "ev_0000",
+      "operator_action": "block release until cited evidence is regenerated",
+      "severity": 2.611
+    },
+    {
+      "rank": 2,
+      "scenario": "court operator packet",
+      "metric": "preparing_risk",
+      "failure_mode": "preparing_gap",
+      "evidence": "ev_0055",
+      "operator_action": "accept only if decision claims cite fixture evidence",
+      "severity": 2.556
+    },
+    {
+      "rank": 3,
+      "scenario": "text-message regression harness",
+      "metric": "text-message_precision",
+      "failure_mode": "text-message_misroute",
+      "evidence": "ev_0022",
+      "operator_action": "open a regression issue with trace and benchmark delta",
+      "severity": 2.528
+    },
+    {
+      "rank": 4,
+      "scenario": "preparing boundary probe",
+      "metric": "court_latency",
+      "failure_mode": "court_blindspot",
+      "evidence": "ev_0077",
+      "operator_action": "route to reviewer with evidence packet",
+      "severity": 2.528
+    }
+  ],
+  "readout": "Dispute Buddy gets a local, deterministic pressure test around people, preparing, and text-message. The useful part is not the dashboard; it is the repeatable evidence path from fixture to failure to operator action."
+}
