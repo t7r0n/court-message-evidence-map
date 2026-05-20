@@ -7,58 +7,52 @@
   "title": "Court Message Evidence Map",
   "problem": "people preparing text-message evidence for court need trauma-aware evidence selection, chain-of-custody clarity, and lawyer-reviewable summaries without hallucinated claims.",
   "direction": "A local evidence map that ingests synthetic SMS/WhatsApp exports, clusters incidents, cites every claim to message IDs, detects coercive-pattern evidence, and emits a lawyer-ready review packet.",
-  "why": "Court-preparation workflows need message evidence that stays citation-locked from import to reviewer packet. The project pushes into deterministic replay, source-grounded analysis, and review workflow where trust matters.",
+  "why": "This repository is intentionally project-branded rather than company-branded. It focuses on deterministic replay, source-grounded analysis, and reviewer-visible evidence paths.",
   "terms": [
-    "people",
-    "preparing",
-    "text-message",
-    "court",
-    "trauma-aware",
-    "selection",
-    "chain-of-custody",
-    "clarity",
-    "lawyer-reviewable",
-    "summaries",
-    "hallucinated",
+    "evidence",
+    "workflow",
+    "review",
     "claims",
-    "ingests",
-    "synthetic",
-    "whatsapp",
-    "exports",
-    "clusters",
-    "incidents"
+    "fixtures",
+    "replay",
+    "handoff",
+    "trace",
+    "policy",
+    "decision",
+    "coverage",
+    "latency"
   ],
   "metrics": [
-    "people_coverage",
-    "preparing_risk",
-    "text-message_precision",
-    "court_latency"
+    "evidence_coverage",
+    "handoff_risk",
+    "claim_precision",
+    "review_latency"
   ],
   "failure_modes": [
-    "people_drift",
-    "preparing_gap",
-    "text-message_misroute",
-    "court_blindspot"
+    "evidence_drift",
+    "handoff_gap",
+    "claim_misroute",
+    "review_blindspot"
   ],
   "archetypes": [
     {
-      "name": "people evidence replay",
-      "trigger": "people signal changes while preparing context is stale",
+      "name": "evidence replay",
+      "trigger": "source evidence changes while workflow context is stale",
       "expected": "block release until cited evidence is regenerated"
     },
     {
-      "name": "preparing boundary probe",
-      "trigger": "preparing handoff crosses a policy or trust boundary",
+      "name": "handoff boundary probe",
+      "trigger": "handoff crosses a policy or trust boundary",
       "expected": "route to reviewer with evidence packet"
     },
     {
-      "name": "text-message regression harness",
-      "trigger": "text-message behavior regresses against the last accepted fixture",
+      "name": "claim regression harness",
+      "trigger": "claim behavior regresses against the last accepted fixture",
       "expected": "open a regression issue with trace and benchmark delta"
     },
     {
-      "name": "court operator packet",
-      "trigger": "court output needs a human-readable audit packet",
+      "name": "review operator packet",
+      "trigger": "review output needs a human-readable audit packet",
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],

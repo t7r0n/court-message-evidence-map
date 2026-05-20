@@ -1,5 +1,5 @@
 scenario,cases,blocks,reviews,mean_severity,mean_score,top_evidence_id,recommended_action
-court operator packet,36,4,5,2.556,0.3939,ev_0055,accept only if decision claims cite fixture evidence
-people evidence replay,36,4,5,2.611,0.3834,ev_0000,block release until cited evidence is regenerated
-preparing boundary probe,36,3,4,2.528,0.4044,ev_0077,route to reviewer with evidence packet
-text-message regression harness,36,3,5,2.528,0.4065,ev_0022,open a regression issue with trace and benchmark delta
+claim regression harness,36,3,5,2.528,0.3992,ev_0022,open a regression issue with trace and benchmark delta
+evidence replay,36,4,5,2.611,0.4151,ev_0132,block release until cited evidence is regenerated
+handoff boundary probe,36,3,4,2.528,0.4041,ev_0033,route to reviewer with evidence packet
+review operator packet,36,4,5,2.556,0.4047,ev_0011,accept only if decision claims cite fixture evidence

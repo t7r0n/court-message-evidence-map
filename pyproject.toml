@@ -1,7 +1,7 @@
 [project]
 name = "court-message-evidence-map"
 version = "0.1.0"
-description = "A local evidence map that ingests synthetic SMS/WhatsApp exports, clusters incidents, cites every claim to message IDs, detects coercive-pat"
+description = "A local evidence map that ingests synthetic SMS/WhatsApp exports, clusters incidents, cites every claim to message IDs, "
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
