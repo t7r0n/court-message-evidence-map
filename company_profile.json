@@ -40,6 +40,28 @@
     "text-message_misroute",
     "court_blindspot"
   ],
+  "archetypes": [
+    {
+      "name": "people evidence replay",
+      "trigger": "people signal changes while preparing context is stale",
+      "expected": "block release until cited evidence is regenerated"
+    },
+    {
+      "name": "preparing boundary probe",
+      "trigger": "preparing handoff crosses a policy or trust boundary",
+      "expected": "route to reviewer with evidence packet"
+    },
+    {
+      "name": "text-message regression harness",
+      "trigger": "text-message behavior regresses against the last accepted fixture",
+      "expected": "open a regression issue with trace and benchmark delta"
+    },
+    {
+      "name": "court operator packet",
+      "trigger": "court output needs a human-readable audit packet",
+      "expected": "accept only if decision claims cite fixture evidence"
+    }
+  ],
   "sources": [
     "https://www.disputebuddy.co/",
     "https://www.disputebuddy.co/our-story",

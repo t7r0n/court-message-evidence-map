@@ -1,19 +1,37 @@
 {
-  "company": "Dispute Buddy",
   "repo": "court-message-evidence-map",
-  "metrics": [
-    "people_coverage",
-    "preparing_risk",
-    "text-message_precision",
-    "court_latency"
+  "company": "Dispute Buddy",
+  "rubric_axes": [
+    {
+      "axis": "people_coverage",
+      "failures": [
+        "people_drift"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "preparing_risk",
+      "failures": [
+        "preparing_gap"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "text-message_precision",
+      "failures": [
+        "text-message_misroute"
+      ],
+      "evidence_required": true
+    },
+    {
+      "axis": "court_latency",
+      "failures": [
+        "court_blindspot"
+      ],
+      "evidence_required": true
+    }
   ],
-  "failure_modes": [
-    "people_drift",
-    "preparing_gap",
-    "text-message_misroute",
-    "court_blindspot"
-  ],
-  "domain_archetypes": [
+  "archetypes": [
     {
       "name": "people evidence replay",
       "trigger": "people signal changes while preparing context is stale",
@@ -35,6 +53,9 @@
       "expected": "accept only if decision claims cite fixture evidence"
     }
   ],
-  "minimum_cases": 144,
-  "requires_evidence_markers": true
+  "sources_used": [
+    "https://www.disputebuddy.co/",
+    "https://www.disputebuddy.co/our-story",
+    "https://www.trustpilot.com/review/disputebuddy.co"
+  ]
 }
